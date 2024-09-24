@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Conversor de Código Morse</title>
+    <link rel="stylesheet" href="estilos.css">
+</head>
+<body>
+    <div class="contenedor">
+        <h2>LENGUAJES Y AUTOMATAS II</h2><br>
+        <h1>Conversor de Código Morse</h1><br>
+        <textarea id="textoEntrada" placeholder="Introduce tu texto aquí..."></textarea>
+        <select id="tipoConversion">
+            <option value="seleccionar">Selecciona una conversión</option>
+            <option value="texto-a-morse">Texto a Morse</option>
+            <option value="morse-a-texto">Morse a Texto</option>
+        </select>
+        <button id="botonConvertir">Convertir</button>
+        <button id="botonLimpiar">Limpiar Todo</button>
+        <p id="textoSalida"></p>
+    </div>
+    <script src="main.js"></script>
+</body>
+</html>

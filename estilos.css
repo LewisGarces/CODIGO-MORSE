@@ -1,0 +1,80 @@
+body {
+    font-family: Arial, sans-serif;
+    background: url('https://png.pngtree.com/thumb_back/fw800/background/20240703/pngtree-background-with-neon-graphic-style-image_15935093.jpg') no-repeat center center fixed;
+    background-size: cover;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    color: #fff;
+}
+
+.contenedor {
+    padding: 20px;
+    border-radius: 8px;
+    text-align: center;
+    max-width: 500px; /* Ancho máximo */
+    width: 100%;
+}
+
+h1 {
+    margin-bottom: 10px;
+}
+
+h2 {
+    margin-bottom: 30px;
+}
+
+textarea {
+    width: 100%;
+    height: 40px;
+    padding: 5px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    resize: none;
+    font-size: 12px;
+}
+
+select {
+    width: 100%;
+    padding: 5px;
+    margin: 5px 0;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    font-size: 12px;
+    background-image: linear-gradient(to right top, #f26b74, #cd367c, #b568c6, #7896f4, #15baff);
+}
+
+button {
+    width: 48%;
+    padding: 5px;
+    margin: 5px 0;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    font-size: 12px;
+    color: white;
+    cursor: pointer;
+}
+
+button#botonConvertir {
+    background-image: linear-gradient(to right, #ff44f9, #b782ff, #5fa5ff, #00b9ff, #00c6ff);
+}
+
+button#botonLimpiar {
+    background-image: linear-gradient(to right, #44d5ff, #00c5ff, #27aaff, #a97fff, #ff00f7);
+}
+
+#textoSalida {
+    margin-top: 10px; /* Espacio reducido */
+    font-size: 14px;
+    word-break: break-word;
+    white-space: pre-wrap;
+    padding: 5px; /* Espacio interno reducido */
+    border-radius: 4px; /* Bordes más redondeados */
+    background-color: #add8e6; /* Color azul claro */
+    color: black; /* Color del texto */
+    min-height: 30px; /* Altura mínima reducida */
+    display: none; /* Ocultar por defecto */
+}
